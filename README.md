@@ -7,8 +7,10 @@
 https://github.com/gufengchangdao/DST-Animation-Parse-for-Unity.git?path=/src/DSTAnimParse
 ```
 
+DSTAnimDemo.unitypackage是示例场景。
 
-## 1. 饥荒动画介绍
+
+## 2. 饥荒动画介绍
 1. 饥荒动画是由bank和build组合而成的，bank负责记录有多少动画，每个动画每帧每个元素的变换（平移、缩放、旋转）以及显示哪个插槽（symbol）的哪个图，build负责记录贴图信息，找到图集进行切片和命名，记录哪些图是属于哪个插槽，因此一个bank可以对应不同的build（换皮），一个build可以对应不同的bank（不同的动画）。
 2. 饥荒预制件的脚本文件路径可以参考下面的截图，steam右键饥荒联机版浏览本地文件就能找到，第一次找的话scripts是一个压缩包，需要解压一下。下图的spear是长矛的预制件文件，在预制件的文件里可以看到长矛用什么动画文件、什么bank、什么build
 
@@ -26,7 +28,7 @@ https://github.com/gufengchangdao/DST-Animation-Parse-for-Unity.git?path=/src/DS
 
 ![图片](https://github.com/gufengchangdao/DST-Animation-Parse-for-Unity/blob/main/docs/screenshots/wilson.png)
 
-## 2. 使用说明
+## 3. 使用说明
 1. 把动画压缩包拖拽进去，然后填写bank、build、预制件名，点击生成即可生成对应的预制件。bank和build填什么可能得翻看一下饥荒lua脚本了。
 
 ![图片](https://github.com/gufengchangdao/DST-Animation-Parse-for-Unity/blob/main/docs/screenshots/tool_1.png)
@@ -57,7 +59,7 @@ https://github.com/gufengchangdao/DST-Animation-Parse-for-Unity.git?path=/src/DS
 
 
 
-## 3. 解包实现思路
+## 4. 解包实现思路
 这个是我解包饥荒动画时做的笔记，记录有饥荒动画文件的数据格式。
 
 [文件说明和解析思路](https://iitkra4fu8q.feishu.cn/docx/JQw4drN8io3ylFxdeODcDzvrnbd?from=from_copylink)
