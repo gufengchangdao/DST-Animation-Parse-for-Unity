@@ -1,5 +1,13 @@
 该插件可以解析饥荒动画文件，并以unity的方式生成动画和预制件。
 
+## 1. 安装
+
+在包管理器中通过git URL来添加
+```
+https://github.com/gufengchangdao/DST-Animation-Parse-for-Unity.git?path=/src/DSTAnimParse
+```
+
+
 ## 1. 饥荒动画介绍
 1. 饥荒动画是由bank和build组合而成的，bank负责记录有多少动画，每个动画每帧每个元素的变换（平移、缩放、旋转）以及显示哪个插槽（symbol）的哪个图，build负责记录贴图信息，找到图集进行切片和命名，记录哪些图是属于哪个插槽，因此一个bank可以对应不同的build（换皮），一个build可以对应不同的bank（不同的动画）。
 2. 饥荒预制件的脚本文件路径可以参考下面的截图，steam右键饥荒联机版浏览本地文件就能找到，第一次找的话scripts是一个压缩包，需要解压一下。下图的spear是长矛的预制件文件，在预制件的文件里可以看到长矛用什么动画文件、什么bank、什么build
