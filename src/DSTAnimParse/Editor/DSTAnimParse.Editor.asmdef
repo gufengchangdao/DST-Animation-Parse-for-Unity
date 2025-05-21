@@ -1,0 +1,13 @@
+{
+    "name": "DSTAnimParse.Editor",
+    "rootNamespace": "DSTAnimParse.Editor",
+    "references": [
+        "DSTAnimParse.Runtime",
+        "Unity.2D.Sprite.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "allowUnsafeCode": false,
+    "autoReferenced": false
+}

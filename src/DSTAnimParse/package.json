@@ -1,0 +1,18 @@
+{
+    "name": "com.unity.dstanimparse",
+    "version": "1.0.0",
+    "displayName": "饥荒动画解析",
+    "description": "用于解析饥荒压缩包动画文件，用unity的方式生成对应的动画和预制件。",
+    "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+    },
+    "keywords": [
+        "dst",
+        "dstanimparse"
+    ],
+    "author": {
+        "name": "绯世行",
+        "email": "1580313824@qq.com",
+        "url": "https://iitkra4fu8q.feishu.cn/docx/S3OEdGgKjorU1WxmUI4cADXhnV3?from=from_copylink"
+    }
+}
