@@ -5,6 +5,7 @@ using System.Linq;
 using UnityEditor.Animations;
 using System.Collections.Generic;
 using System.Text;
+using UnityEngine.Rendering;
 
 namespace DSTAnimParse
 {
@@ -778,6 +779,7 @@ namespace DSTAnimParse
             animator.runtimeAnimatorController = CONTROLLER;
 
             obj.AddComponent<DSTAnimator>();
+            obj.AddComponent<SortingGroup>(); // 把所有部位作为一个整体
 
             foreach (var entry in ANIM_OBJ_NAMES)
             {
